@@ -534,7 +534,7 @@ a:focus {
 
 @media (max-width: 992px) {
   .banner {
-    background: #fff !important;
+    /* background: #fff !important; */
   }
 }
 
