@@ -1,12 +1,22 @@
-/*=== MEDIA QUERY ===*/
-/*
-Theme Name: Medic
-Author: Themefisher
-Author URI: https:///
-Description: Medicle Template
-Version: 1.0.0
+.head2{
+  margin: 10px 0 10px 0;
+}
 
-*/
+.bg-awd{
+    background: url(../images/awdban.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+.bg-phil{
+  background: url(../images/banphil.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+.bg-pur{
+  background: url(../images/purban.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  position: relative;
+}
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&display=swap");
 html {
   overflow-x: hidden;
@@ -225,7 +235,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 .section {
-  padding: 100px 0;
+  padding: 70px 0;
 }
 
 .section-sm {
