@@ -1,3 +1,95 @@
+
+.call-float{
+  position: fixed;
+  transform:translate(108px,0px);
+  top:50%;
+  right:0;
+  width:150px;
+  overflow: hidden;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 2px 0 0 2px;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+  vertical-align: middle
+}
+.call-float a span {
+  color: white;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  position: absolute;
+  line-height: 16px;
+  font-weight: bolder;
+}
+
+.call-float i {
+  font-size: 30px;
+  color: white;
+  line-height: 30px;
+  padding: 10px;
+  transform:rotate(0deg);
+  transition: all 0.5s ease-in-out;
+  text-align:center;
+
+}
+
+.call-float:hover {
+  color: #FFFFFF;
+  transform:translate(0px,0px);
+}
+
+.call-float:hover i  {
+  transform:rotate(360deg);
+}
+
+.whats-float{
+  position: fixed;
+  transform:translate(108px,0px);
+  top:40%;
+  right:0;
+  width:150px;
+  overflow: hidden;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 2px 0 0 2px;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+  vertical-align: middle
+}
+.whats-float a span {
+  color: white;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  position: absolute;
+  line-height: 16px;
+  font-weight: bolder;
+}
+
+.whats-float i {
+  font-size: 30px;
+  color: white;
+  line-height: 30px;
+  padding: 10px;
+  transform:rotate(0deg);
+  transition: all 0.5s ease-in-out;
+  text-align:center;
+
+}
+
+.whats-float:hover {
+  color: #FFFFFF;
+  transform:translate(0px,0px);
+}
+
+.whats-float:hover i  {
+  transform:rotate(360deg);
+}
+
+
+
+/* */
 .head2{
   margin: 10px 0 10px 0;
 }
@@ -897,11 +989,11 @@ a:focus {
 
 .testimonial-block p {
   background: #fff;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .testimonial-block .client-info {
-  margin-bottom: 20px;
+  
 }
 
 .testimonial-block .client-info h4 {
